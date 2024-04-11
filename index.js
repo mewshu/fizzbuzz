@@ -5,6 +5,9 @@ else if the number is % 5 == 0 return Buzz
 else if the number is % 3 && # 5 == 0 return FizzBuzz
 */
 
+let answer = parseInt(prompt("What number do you wanna fizzbuzz?"))
+
+
 let FizzBuzz = (num) => {
     for (i=1; i <= num; i++) {
         if (i % 3 === 0 && i % 5 == 0) {
@@ -17,4 +20,4 @@ let FizzBuzz = (num) => {
     }
 }
 
-console.log(FizzBuzz(30));
+console.log(FizzBuzz(answer));
